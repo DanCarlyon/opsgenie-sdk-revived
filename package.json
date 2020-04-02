@@ -1,0 +1,27 @@
+{
+  "name": "opsgenie-sdk-revived",
+  "version": "0.0.1",
+  "description": "Reviving the opsgenie-sdk, Giving Node.js access to the OpsGenie Web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanCarlyon/opsgenie-sdk-revived.git"
+  },
+  "keywords": [
+    "opsgenie-sdk",
+    "opsgenie",
+    "rest",
+    "api",
+    "sdk",
+    "atlassian"
+  ],
+  "author": "DanCarlyon",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DanCarlyon/opsgenie-sdk-revived/issues"
+  },
+  "homepage": "https://github.com/DanCarlyon/opsgenie-sdk-revived#readme"
+}
