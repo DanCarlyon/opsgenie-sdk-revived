@@ -1,6 +1,6 @@
 {
   "name": "opsgenie-sdk-revived",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reviving the opsgenie-sdk, Giving Node.js access to the OpsGenie Web API",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/DanCarlyon/opsgenie-sdk-revived/issues"
   },
-  "homepage": "https://github.com/DanCarlyon/opsgenie-sdk-revived#readme"
+  "homepage": "https://github.com/DanCarlyon/opsgenie-sdk-revived#readme",
+  "dependencies": {
+    "requestretry": "^4.1.0"
+  }
 }
