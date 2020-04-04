@@ -3,6 +3,6 @@
 var opsgenie = require('../');
 
 opsgenie.configure({
-    'host': 'https://api.opsgenie.com',
-    'api_key': "apikey"
+    'host': 'https://api.eu.opsgenie.com',
+    'api_key': "api_key"
 });
