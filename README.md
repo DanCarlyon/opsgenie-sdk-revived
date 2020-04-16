@@ -17,8 +17,8 @@ OpsGenie Node.js SDK covers:
 * User API
 * Group API
 * Team API
-* Escalation API (TODO: will be available soon)
-* Schedule API (TODO: will be available soon)
+* Escalation API
+* Schedule API
 * Schedule Override API (TODO: will be available soon)
 * Forwarding Rule API (TODO: will be available soon)
 * Heartbeat API (TODO: will be available soon)
@@ -26,9 +26,10 @@ OpsGenie Node.js SDK covers:
 * Policy API (TODO: will be available soon)
 
 Current differences from original package
-* Add User API V2
-* Add Incident API V1
-* Escalation API V2
+* Added User API V2
+* Added Incident API V1 (V2 not available yet)
+* Added Escalation API V2
+* Added Schedule API V2
 
 ## Installation
 Node.js version >=0.6.x is required.
