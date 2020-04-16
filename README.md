@@ -26,7 +26,9 @@ OpsGenie Node.js SDK covers:
 * Policy API (TODO: will be available soon)
 
 Current differences from original package
-* User API v2
+* Add User API V2
+* Add Incident API V1
+* Escalation API V2
 
 ## Installation
 Node.js version >=0.6.x is required.
