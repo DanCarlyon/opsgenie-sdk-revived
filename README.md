@@ -1,4 +1,7 @@
 # OpsGenie Node.js SDK Revived
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repository is the revived version of the official OpsGenie Node.js SDK
 I wanted to use this SDK but found, like others, that it was out of date and missing features and while i created pull request to the original they have not been merge so my last resort is to fork and extend what OpsGenie started.
@@ -71,3 +74,23 @@ opsgenie.alertV2.get(get_alert_identifier, function (error, alert) {
 More samples can be found under `/samples` directory
 
 Also, checkout "[Node.js SDK page](https://www.opsgenie.com/docs/api-and-client-libraries/opsgenie-nodejs-api)" for detailed documentation
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/diogokiss"><img src="https://avatars.githubusercontent.com/u/779938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diogo Kiss</b></sub></a><br /><a href="https://github.com/DanCarlyon/opsgenie-sdk-revived/issues?q=author%3Adiogokiss" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
