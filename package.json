@@ -4,7 +4,7 @@
   "description": "Reviving the opsgenie-sdk, Giving Node.js access to the OpsGenie Web API",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
   "dependencies": {
     "requestretry": "^1.13.0",
     "lodash": ">=4.17.19"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
   }
 }
