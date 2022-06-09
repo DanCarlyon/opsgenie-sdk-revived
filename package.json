@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/DanCarlyon/opsgenie-sdk-revived#readme",
   "dependencies": {
-    "requestretry": "^1.13.0",
+    "requestretry": "^7.0.0",
     "lodash": ">=4.17.19"
   }
 }
