@@ -1,3 +1,7 @@
+# 0.1.10
+- Updated dependencies from dependabot
+- Added `getOnCallForSchedule` - Thank you @joshrichards37
+
 # 0.1.9
 - Added Schedule Override V2 API with samples
 - Updated dependencies from dependabot
