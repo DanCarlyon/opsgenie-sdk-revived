@@ -1,20 +1,18 @@
-"use strict";
-
-var opsgenie = require('../../');
+const opsgenie = require('../..');
 
 opsgenie.configure({
-    'api_key': 'your_api_key'
+  api_key: 'your_api_key',
 });
 
 // optional for dev purposes
-/*opsgenie.headers({
+/* opsgenie.headers({
 
-});*/
+}); */
 
-opsgenie.alert.get({id: "your_alert_id"}, function (error, alert) {
-    if (error) {
-        console.error(error);
-    } else {
-        console.log("Alert Response: ", alert);
-    }
+opsgenie.alert.get({ id: 'your_alert_id' }, (error, alert) => {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('Alert Response: ', alert);
+  }
 });
