@@ -1,3 +1,7 @@
+# 0.1.11
+- Add ESLint and Prettifier - Thank you @joshrichards37
+- Fixed actionPath with `getOnCallForSchedule`
+
 # 0.1.10
 - Updated dependencies from dependabot
 - Added `getOnCallForSchedule` - Thank you @joshrichards37
