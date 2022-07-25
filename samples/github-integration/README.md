@@ -8,8 +8,8 @@ This script creates an alert when an issue opened in your repository.
 
 ## Installation
 
-* Add latest version of OpsGenie Node.js SDK to package.json file and execute `npm install opsgenie-sdk` command.
-* Select index.js and node_modules folder and compress as ZIP file
-* Create Lambda Funtion on AWS Lambda Console
-* Upload ZIP file from Code Tab on Lambda Console
-* Paste your AWS Gateway endpoint to GitHub Webhook page
+- Add latest version of OpsGenie Node.js SDK to package.json file and execute `npm install opsgenie-sdk` command.
+- Select index.js and node_modules folder and compress as ZIP file
+- Create Lambda Funtion on AWS Lambda Console
+- Upload ZIP file from Code Tab on Lambda Console
+- Paste your AWS Gateway endpoint to GitHub Webhook page
