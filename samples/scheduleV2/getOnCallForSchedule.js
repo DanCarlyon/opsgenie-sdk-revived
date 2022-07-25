@@ -1,7 +1,9 @@
 const opsgenie = require('../..');
 require('../configure');
 
-opsgenie.scheduleV2.getOnCallForSchedule('cb0ddf84-2b2c-40b9-8ff3-396e5060409e', (error, user) => {
+opsgenie.scheduleV2.getOnCallForSchedule(
+    {identifier: '00000000-0000-0000-0000-000000000000'},
+    (error, user) => {
   if (error) {
     console.error(error);
   } else {

@@ -1,6 +1,6 @@
 {
   "name": "opsgenie-sdk-revived",
-  "version": "0.1.11",
+  "version": "0.1.10",
   "description": "Reviving the opsgenie-sdk, Giving Node.js access to the OpsGenie Web API",
   "main": "index.js",
   "scripts": {
