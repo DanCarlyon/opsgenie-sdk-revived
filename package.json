@@ -4,7 +4,11 @@
   "description": "Reviving the opsgenie-sdk, Giving Node.js access to the OpsGenie Web API",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "prettier": "./node_modules/prettier/bin-prettier.js -c .",
+    "prettier:fix": "./node_modules/prettier/bin-prettier.js --write ."
   },
   "repository": {
     "type": "git",
@@ -25,7 +29,14 @@
   },
   "homepage": "https://github.com/DanCarlyon/opsgenie-sdk-revived#readme",
   "dependencies": {
-    "requestretry": "^7.0.0",
-    "lodash": ">=4.17.19"
+    "lodash": ">=4.17.19",
+    "requestretry": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
   }
 }
