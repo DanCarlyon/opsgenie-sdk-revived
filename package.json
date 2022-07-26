@@ -1,5 +1,5 @@
 {
-  "name": "opsgenie-sdk-revived",
+  "name": "@jugo-io/opsgenie-sdk-revived",
   "version": "0.1.11",
   "description": "Reviving the opsgenie-sdk, Giving Node.js access to the OpsGenie Web API",
   "main": "index.js",
@@ -12,7 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/DanCarlyon/opsgenie-sdk-revived.git"
+    "url": "git://github.com/jugo-io/opsgenie-sdk.git"
+  },  
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "opsgenie-sdk",
@@ -22,12 +25,8 @@
     "sdk",
     "atlassian"
   ],
-  "author": "DanCarlyon",
+  "author": "jugo.io",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/DanCarlyon/opsgenie-sdk-revived/issues"
-  },
-  "homepage": "https://github.com/DanCarlyon/opsgenie-sdk-revived#readme",
   "dependencies": {
     "lodash": ">=4.17.19",
     "requestretry": "^7.0.0"
